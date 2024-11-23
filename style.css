@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e9f7; 
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #6b4a87; 
+
+.controls {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    flex-wrap: wrap; 
+}
+
+input[type="number"] {
+    padding: 8px;
+    font-size: 16px;
+    width: 100px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 15px; 
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #6b4a87; 
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #8e62b1; 
+}
+
+
+.profile-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+
+.profile {
+    width: 120px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background: #f9f9f9;
+    transition: transform 0.2s;
+}
+
+.profile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
